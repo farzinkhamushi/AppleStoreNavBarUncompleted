@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*....................................................................*/
+/*....................................................................*/
+/*....................................................................*/
+/*............................  .main-nav  ...........................*/
+/*....................................................................*/
+/*....................................................................*/
+/*....................................................................*/
+.contain1{
+    width: 100%;
+    background-color: #f4f4f4;
+    transition: all 0.85s;
+    /* ----------------------------------------------------------------- */
+    /* --------------------- javascript changes ----------------------- */
+    /* ----------------------------------------------------------------- */
+    height: 44px;
+    box-shadow: none;/* box-shadow: 1px 1px 200px 300px #999999 ; for future*/
+    /* ----------------------------------------------------------------- */
+    /* ----------------------------------------------------------------- */
+}
+.contain1 .main-nav{
+    width: 90%;
+    margin: 0 auto;
+}
+.contain1 .main-nav ul {
+    display: block;
+    /* background-color: blue; */
+    text-align: center;
+}
+.contain1 .main-nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 14px;
+    text-align: center;
+}
+.contain1 .main-nav ul li:nth-of-type(1){
+    margin-left: 0;
+}
+
+.contain1 .main-nav ul li a{
+    background-color: green;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-decoration: none;
+    color: #424242;
+    font-size: 0.83em;
+    font-weight: 100;
+    line-height: 44px;
+    display: block;
+}
+/* ........................................................ */
+/* ........................................................ */
+/* ........................................................ */
+/* ...................Support-nav.......................... */
+/* ........................................................ */
+/* ........................................................ */
+
+.contain1 .support-nav{
+    margin: 0 auto;
+    width: 75%;
+    position: absolute;
+    bottom: 22px;
+    opacity: 1;
+}
+.contain1 .support-nav div{
+    display: inline-block;
+}
+.contain1 .support-nav div h6{
+    margin: 5px 0;
+    color: #8b8b8b;
+    font-weight: 100;
+    line-height: 40px;
+    display: block;
+    transition: all 0.9s;
+    /* ---------------------------------- */
+    /* --------javascript changes-------- */
+    /* ---------------------------------- */
+    height: 0px;
+    /* ---------------------------------- */
+}
+.contain1 .support-nav div ul li{
+    list-style-type: none;
+    margin: 5px 0;
+    margin-right: 50px;
+    transition: all 0.9s;
+    /* ---------------------------------- */
+    /* --------javascript changes-------- */
+    /* ---------------------------------- */
+    height: 0px;
+    /* ---------------------------------- */
+}
+.contain1 .support-nav div ul li a{
+    text-decoration: none;
+    color: #000000;
+    padding: 5px;
+    display: block;
+}
+.contain1 .support-nav div:nth-of-type(1) ul li a{
+    font-size: 1.58em;
+    font-style: bold;
+}
+
+
+/* ........................................................ */
+/* ........................................................ */
+/* ........................................................ */
+/* .................Accessories-nav........................ */
+/* ........................................................ */
+/* ........................................................ */
+
+
+
+.contain1 .accessories-nav{
+    margin: 0 auto;
+    width: 75%;
+    position: relative;
+    top: -73px;
+    opacity: 0;
+}
+.contain1 .accessories-nav div{
+    display: inline-block;
+}
+.contain1 .accessories-nav div h6{
+    margin: 5px 0;
+    color: #8b8b8b;
+    font-weight: 100;
+    line-height: 40px;
+    display: block;
+    transition: all 0.9s;
+    /* ---------------------------------- */
+    /* --------javascript changes-------- */
+    /* ---------------------------------- */
+    height: 0px;
+    /* ---------------------------------- */
+}
+.contain1 .accessories-nav div ul li{
+    list-style-type: none;
+    margin: 5px 0;
+    margin-right: 50px;
+    transition: all 0.9s;
+    /* ---------------------------------- */
+    /* --------javascript changes-------- */
+    /* ---------------------------------- */
+    height: 0px;
+    /* ---------------------------------- */
+}
+.contain1 .accessories-nav div ul li a{
+    text-decoration: none;
+    color: #000000;
+    padding: 5px;
+    display: block;
+}
+.contain1 .accessories-nav div:nth-of-type(1) ul li a{
+    font-size: 1.58em;
+    font-style: bold;
+}
+
+
+
+
+/* ........................................................ */
+/* ........................................................ */
+/* ........................................................ */
+/* ...............Entertainment-nav........................ */
+/* ........................................................ */
+/* ........................................................ */
+
+
+
+
+.contain1 .entertainment-nav{
+    margin: 0 auto;
+    width: 75%;
+    position: relative;
+    bottom: 145px;
+    opacity: 0;
+}
+.contain1 .entertainment-nav div{
+    display: inline-block;
+}
+.contain1 .entertainment-nav div h6{
+    margin: 5px 0;
+    color: #8b8b8b;
+    font-weight: 100;
+    line-height: 40px;
+    display: block;
+    transition: all 0.9s;
+    /* ---------------------------------- */
+    /* --------javascript changes-------- */
+    /* ---------------------------------- */
+    height: 0px;
+    /* ---------------------------------- */
+}
+.contain1 .entertainment-nav div ul li{
+    list-style-type: none;
+    margin: 5px 0;
+    margin-right: 50px;
+    transition: all 0.9s;
+    /* ---------------------------------- */
+    /* --------javascript changes-------- */
+    /* ---------------------------------- */
+    height: 0px;
+    /* ---------------------------------- */
+}
+.contain1 .entertainment-nav div ul li a{
+    text-decoration: none;
+    color: #000000;
+    padding: 5px;
+    display: block;
+}
+.contain1 .entertainment-nav div:nth-of-type(1) ul li a{
+    font-size: 1.58em;
+    font-style: bold;
+}
+
+
+
+/* ........................................................ */
+/* ........................................................ */
+/* ........................................................ */
+/* ...............TV-nav........................ */
+/* ........................................................ */
+/* ........................................................ */
+
+.contain1 .tv-nav{
+    margin: 0 auto;
+    width: 75%;
+    position: relative;
+    bottom: 176px;
+    opacity: 0;
+}
+.contain1 .tv-nav div{
+    display: inline-block;
+}
+.contain1 .tv-nav div h6{
+    margin: 5px 0;
+    color: #8b8b8b;
+    font-weight: 100;
+    line-height: 40px;
+    display: block;
+    transition: all 0.9s;
+    /* ---------------------------------- */
+    /* --------javascript changes-------- */
+    /* ---------------------------------- */
+    height: 0px;
+    /* ---------------------------------- */
+}
+.contain1 .tv-nav div ul li{
+    list-style-type: none;
+    margin: 5px 0;
+    margin-right: 50px;
+    transition: all 0.9s;
+    /* ---------------------------------- */
+    /* --------javascript changes-------- */
+    /* ---------------------------------- */
+    height: 0px;
+    /* ---------------------------------- */
+}
+.contain1 .tv-nav div ul li a{
+    text-decoration: none;
+    color: #000000;
+    padding: 5px;
+    display: block;
+}
+.contain1 .tv-nav div:nth-of-type(1) ul li a{
+    font-size: 1.58em;
+    font-style: bold;
+}
+
