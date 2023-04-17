@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div onmouseleave="leaving_calc()" id="contain1" class="contain1">
+
+        <!--
+
+            ,support_leave(), accessories_leave(), entertainment_leave(),
+     tv_leave(), airpods_leave()
+        -->
+        <nav class="main-nav">
+            <ul>
+                <li><a href="http://"><i class="fa fa-apple"></i></a></li>
+                <li>
+                    <a onmouseover="store_over(this)" href="http://">Store</a>
+                    <!------------------------------------------------------------------------>
+                    <!-- ---------------------------   Store    ------------------------------>
+                    <nav id="store-nav" class="store-nav">
+                        <div>
+                            <h6 id="store-nav-h6-1">Shop</h6>
+                            <ul id="store-nav-ul">
+                                <li id="store-nav-li-11"><a href="http://">Shop the Latest</a></li>
+                                <li id="store-nav-li-12"><a href="http://">Mac</a></li>
+                                <li id="store-nav-li-13"><a href="http://">iPad</a></li>
+                                <li id="store-nav-li-14"><a href="http://">iPhone</a></li>
+                                <li id="store-nav-li-15"><a href="http://">Apple Watch</a></li>
+                                <li id="store-nav-li-16"><a href="http://">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6 id="store-nav-h6-2">Quick Links</h6>
+                            <ul id="store-nav-ul">
+                                <li id="store-nav-li-21"><a href="http://">Find a Store</a></li>
+                                <li id="store-nav-li-22"><a href="http://">Order Status</a></li>
+                                <li id="store-nav-li-23"><a href="http://">Financing</a></li>
+                                <li id="store-nav-li-24"><a href="http://">Apple Trade In</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6 id="store-nav-h6-3">Shop Special Stores</h6>
+                            <ul id="store-nav-ul">
+                                <li id="store-nav-li-31"><a href="http://">Certified Refurbished</a></li>
+                                <li id="store-nav-li-32"><a href="http://">Education</a></li>
+                                <li id="store-nav-li-33"><a href="http://">Business</a></li>
+                                <li id="store-nav-li-34"><a href="http://">Veterans and Military</a></li>
+                                <li id="store-nav-li-35"><a href="http://">Government</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!------------------------------------------------------------------------>
+                </li>
+                <li>
+                    <a onmouseover="mac_over(this)" href="http://">Mac</a>
+                    <!------------------------------------------------------------------------>
+                    <!-- ---------------------------   Mac    ------------------------------>
+                    <nav id="mac-nav" class="mac-nav">
+                        <div>
+                            <h6 id="mac-nav-h6-1">Explore Watch</h6>
+                            <ul id="mac-nav-ul">
+                                <li id="mac-nav-li-11"><a href="http://">Explore All Mac</a></li>
+                                <li id="mac-nav-li-12"><a href="http://">MacBook Air</a></li>
+                                <li id="mac-nav-li-13"><a href="http://">MacBook Pro</a></li>
+                                <li id="mac-nav-li-14"><a href="http://">iMac</a></li>
+                                <li id="mac-nav-li-15"><a href="http://">Mac mini</a></li>
+                                <li id="mac-nav-li-16"><a href="http://">Mac Studio</a></li>
+                                <li id="mac-nav-li-17"><a href="http://">Mac Pro</a></li>
+                                <li id="mac-nav-li-18"><a href="http://">Displays</a></li>
+                            </ul>
+                            <h6 id="mac-nav-h6-2">Compare Mac</h6>
+                            <h6 id="mac-nav-h6-3">Mac Does That</h6>
+                        </div>
+                        <div>
+                            <h6 id="mac-nav-h6-4">Shop Mac</h6>
+                            <ul id="mac-nav-ul">
+                                <li id="mac-nav-li-21"><a href="http://">Shop Mac</a></li>
+                                <li id="mac-nav-li-22"><a href="http://">Mac Accessories</a></li>
+                                <li id="mac-nav-li-23"><a href="http://">Financing</a></li>
+                                <li id="mac-nav-li-24"><a href="http://">Apple Trade In</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6 id="mac-nav-h6-5">More from Mac</h6>
+                            <ul id="mac-nav-ul">
+                                <li id="mac-nav-li-31"><a href="http://">Mac Support</a></li>
+                                <li id="mac-nav-li-32"><a href="http://">macOS Ventura</a></li>
+                                <li id="mac-nav-li-33"><a href="http://">Continuity</a></li>
+                                <li id="mac-nav-li-34"><a href="http://">iCloud</a></li>
+                                <li id="mac-nav-li-35"><a href="http://">Mac for Business</a></li>
+                                <li id="mac-nav-li-36"><a href="http://">Education</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!------------------------------------------------------------------------>
+                </li>
+                <li>
+                    <a onmouseover="ipad_over(this)" href="http://">iPad</a>
+                    <!------------------------------------------------------------------------>
+                    <!-- ---------------------------   iPad    ------------------------------>
+                    <nav id="ipad-nav" class="ipad-nav">
+                        <div>
+                            <h6 id="ipad-nav-h6-1">Explore iPad</h6>
+                            <ul id="ipad-nav-ul">
+                                <li id="ipad-nav-li-11"><a href="http://">Explore All iPad</a></li>
+                                <li id="ipad-nav-li-12"><a href="http://">iPad Pro</a></li>
+                                <li id="ipad-nav-li-13"><a href="http://">iPad Air</a></li>
+                                <li id="ipad-nav-li-14"><a href="http://">iPad</a></li>
+                                <li id="ipad-nav-li-15"><a href="http://">iPad mini</a></li>
+                                <li id="ipad-nav-li-16"><a href="http://">Apple Pencil</a></li>
+                                <li id="ipad-nav-li-17"><a href="http://">Keyboards</a></li>
+                            </ul>
+                            <h6 id="ipad-nav-h6-2">Compare iPad</h6>
+                            <h6 id="ipad-nav-h6-3">Why iPad</h6>
+                        </div>
+                        <div>
+                            <h6 id="ipad-nav-h6-4">Shop iPad</h6>
+                            <ul id="ipad-nav-ul">
+                                <li id="ipad-nav-li-21"><a href="http://">Shop iPad</a></li>
+                                <li id="ipad-nav-li-22"><a href="http://">iPad Accessories</a></li>
+                                <li id="ipad-nav-li-23"><a href="http://">Financing</a></li>
+                                <li id="ipad-nav-li-24"><a href="http://">Apple Trade In</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6 id="ipad-nav-h6-5">More from iPad</h6>
+                            <ul id="ipad-nav-ul">
+                                <li id="ipad-nav-li-31"><a href="http://">iPad Support</a></li>
+                                <li id="ipad-nav-li-32"><a href="http://">iPadOS 16</a></li>
+                                <li id="ipad-nav-li-33"><a href="http://">iCloud</a></li>
+                                <li id="ipad-nav-li-34"><a href="http://">Education</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!------------------------------------------------------------------------>
+                </li>
+                <li>
+                    <a onmouseover="iphone_over(this)" href="http://">iPhone</a>
+                    <!------------------------------------------------------------------------>
+                    <!-- ---------------------------   iPhone    ------------------------------>
+                    <nav id="iphone-nav" class="iphone-nav">
+                        <div>
+                            <h6 id="iphone-nav-h6-1">Explore iPhone</h6>
+                            <ul id="iphone-nav-ul">
+                                <li id="iphone-nav-li-11"><a href="http://">Explore All iPhone</a></li>
+                                <li id="iphone-nav-li-12"><a href="http://">iPhone 14 Pro</a></li>
+                                <li id="iphone-nav-li-13"><a href="http://">iPhone 14</a></li>
+                                <li id="iphone-nav-li-14"><a href="http://">iPhone 13</a></li>
+                                <li id="iphone-nav-li-15"><a href="http://">iPhone 12</a></li>
+                                <li id="iphone-nav-li-16"><a href="http://">iPhone SE</a></li>
+                            </ul>
+                            <h6 id="iphone-nav-h6-2">Compare iPhone</h6>
+                            <h6 id="iphone-nav-h6-3">Switch to iPhone</h6>
+                        </div>
+                        <div>
+                            <h6 id="iphone-nav-h6-4">Shop iPhone</h6>
+                            <ul id="iphone-nav-ul">
+                                <li id="iphone-nav-li-21"><a href="http://">Shop iPhone</a></li>
+                                <li id="iphone-nav-li-22"><a href="http://">iPhone Accessories</a></li>
+                                <li id="iphone-nav-li-23"><a href="http://">Apple Trade In</a></li>
+                                <li id="iphone-nav-li-24"><a href="http://">Carier Deals at Apple</a></li>
+                                <li id="iphone-nav-li-25"><a href="http://">Financing</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6 id="iphone-nav-h6-5">More from iPhone</h6>
+                            <ul id="iphone-nav-ul">
+                                <li id="iphone-nav-li-31"><a href="http://">iPhone Support</a></li>
+                                <li id="iphone-nav-li-32"><a href="http://">iOS 9</a></li>
+                                <li id="iphone-nav-li-33"><a href="http://">iPhone Privacy</a></li>
+                                <li id="iphone-nav-li-34"><a href="http://">iCloud</a></li>
+                                <li id="iphone-nav-li-35"><a href="http://">Wallet, Pay, Card</a></li>
+                                <li id="iphone-nav-li-36"><a href="http://">Siri</a></li>
+
+                            </ul>
+                        </div>
+                    </nav>
+                    <!------------------------------------------------------------------------>
+                </li>
+                <li>
+                    <a onmouseover="watch_over(this)" href="http://">Watch</a>
+                    <!------------------------------------------------------------------------>
+                    <!-- ---------------------------   Watch    ------------------------------>
+                    <nav id="watch-nav" class="watch-nav">
+                        <div>
+                            <h6 id="watch-nav-h6-1">Explore Watch</h6>
+                            <ul id="watch-nav-ul">
+                                <li id="watch-nav-li-11"><a href="http://">Explore All Watch</a></li>
+                                <li id="watch-nav-li-12"><a href="http://">Apple Watch Ultra</a></li>
+                                <li id="watch-nav-li-13"><a href="http://">Apple Watch Series 8</a></li>
+                                <li id="watch-nav-li-14"><a href="http://">Apple Watch SE</a></li>
+                                <li id="watch-nav-li-15"><a href="http://">Apple Watch Nike</a></li>
+                                <li id="watch-nav-li-16"><a href="http://">Apple Watch Hermes</a></li>
+                            </ul>
+                            <h6 id="watch-nav-h6-2">Compare Watch</h6>
+                            <h6 id="watch-nav-h6-3">Why Apple Watch</h6>
+                        </div>
+                        <div>
+                            <h6 id="watch-nav-h6-4">Shop Watch</h6>
+                            <ul id="watch-nav-ul">
+                                <li id="watch-nav-li-21"><a href="http://">Shop Apple Watch</a></li>
+                                <li id="watch-nav-li-22"><a href="http://">Apple Watch Studio</a></li>
+                                <li id="watch-nav-li-23"><a href="http://">Apple Watch Bands</a></li>
+                                <li id="watch-nav-li-24"><a href="http://">Apple Watch Accessories</a></li>
+                                <li id="watch-nav-li-25"><a href="http://">Financing</a></li>
+                                <li id="watch-nav-li-26"><a href="http://">Apple Trade In</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6 id="watch-nav-h6-5">More from Watch</h6>
+                            <ul id="watch-nav-ul">
+                                <li id="watch-nav-li-31"><a href="http://">Apple Watch Support</a></li>
+                                <li id="watch-nav-li-32"><a href="http://">watchOS 9</a></li>
+                                <li id="watch-nav-li-33"><a href="http://">Apple Fitness+</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!------------------------------------------------------------------------>
+                </li>
+                <li>
+                    <a onmouseover="airpods_over(this)" href="http://">AirPods</a>
+                    <!------------------------------------------------------------------------>
+                    <!-- ---------------------------  AirPods   ------------------------------>
+                    <nav id="airpods-nav" class="airpods-nav">
+                        <div>
+                            <h6 id="airpods-nav-h6-1">Explore AirPods</h6>
+                            <ul id="airpods-nav-ul">
+                                <li id="airpods-nav-li-11"><a href="http://">Explore All AirPods</a></li>
+                                <li id="airpods-nav-li-12"><a href="http://">AirPods 2nd generation</a></li>
+                                <li id="airpods-nav-li-13"><a href="http://">AirPods 3rd generation</a></li>
+                                <li id="airpods-nav-li-14"><a href="http://">AirPods Pro 2nd generation</a></li>
+                                <li id="airpods-nav-li-15"><a href="http://">AirPods Max</a></li>
+                            </ul>
+                            <h6 id="airpods-nav-h6-2">Compare AirPods</h6>
+                        </div>
+                        <div>
+                            <h6 id="airpods-nav-h6-3">Shop AirPods</h6>
+                            <ul id="airpods-nav-ul">
+                                <li id="airpods-nav-li-21"><a href="http://">Shop AirPods</a></li>
+                                <li id="airpods-nav-li-22"><a href="http://">AirPods Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6 id="airpods-nav-h6-4">More from AirPods</h6>
+                            <ul id="airpods-nav-ul">
+                                <li id="airpods-nav-li-31"><a href="http://">AirPods Support</a></li>
+                                <li id="airpods-nav-li-32"><a href="http://">Apple Music</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!------------------------------------------------------------------------>
+                </li>
+                <li>
+                    <a onmouseover="tv_over(this)" href="http://">TV & Home</a>
+                    <!------------------------------------------------------------------------>
+                    <!-- ----------------------------  Tv & Home ----------------------------->
+                    <nav id="tv-nav" class="tv-nav">
+                        <div>
+                            <h6 id="tv-nav-h6-1">Explore TV & Home</h6>
+                            <ul id="tv-nav-ul">
+                                <li id="tv-nav-li-11"><a href="http://">Explore TV & Home</a></li>
+                                <li id="tv-nav-li-12"><a href="http://">Apple TV 4K</a></li>
+                                <li id="tv-nav-li-13"><a href="http://">HomePod</a></li>
+                                <li id="tv-nav-li-14"><a href="http://">HomePod mini</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6 id="tv-nav-h6-2">Shop TV & Home</h6>
+                            <ul id="tv-nav-ul">
+                                <li id="tv-nav-li-21"><a href="http://">Shop Apple TV 4K</a></li>
+                                <li id="tv-nav-li-22"><a href="http://">Shop HomePod</a></li>
+                                <li id="tv-nav-li-23"><a href="http://">Shop HomePod mini</a></li>
+                                <li id="tv-nav-li-24"><a href="http://">Shop Siri Remote</a></li>
+                                <li id="tv-nav-li-25"><a href="http://">TV & Home Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6 id="tv-nav-h6-3">More from TV & Home</h6>
+                            <ul id="tv-nav-ul">
+                                <li id="tv-nav-li-31"><a href="http://">Apple TV Support</a></li>
+                                <li id="tv-nav-li-32"><a href="http://">HomePod Support</a></li>
+                                <li id="tv-nav-li-33"><a href="http://">Apple TV app</a></li>
+                                <li id="tv-nav-li-34"><a href="http://">Apple TV+</a></li>
+                                <li id="tv-nav-li-35"><a href="http://">Home app</a></li>
+                                <li id="tv-nav-li-36"><a href="http://">Apple Music</a></li>
+                                <li id="tv-nav-li-37"><a href="http://">Siri</a></li>
+                                <li id="tv-nav-li-38"><a href="http://">AirPlay</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!------------------------------------------------------------------------>
+                </li>
+                <li>
+                    <a onmouseover="entertainment_over(this)" href="http://">Entertainment</a>
+                    <!------------------------------------------------------------------------>
+                    <!-- -------------------------- Entertainment ---------------------------->
+                    <nav id="entertainment-nav" class="entertainment-nav">
+                        <div>
+                            <h6 id="entertainment-nav-h6-1">Explore Entertainment</h6>
+                            <ul id="entertainment-nav-ul">
+                                <li id="entertainment-nav-li-11"><a href="http://">Explore Entertainment</a></li>
+                                <li id="entertainment-nav-li-12"><a href="http://">Apple One</a></li>
+                                <li id="entertainment-nav-li-13"><a href="http://">Apple TV+</a></li>
+                                <li id="entertainment-nav-li-14"><a href="http://">Apple Music</a></li>
+                                <li id="entertainment-nav-li-15"><a href="http://">Apple Arcade</a></li>
+                                <li id="entertainment-nav-li-16"><a href="http://">Apple Fitness+</a></li>
+                                <li id="entertainment-nav-li-17"><a href="http://">Apple News+</a></li>
+                                <li id="entertainment-nav-li-18"><a href="http://">Apple Podcasts</a></li>
+                                <li id="entertainment-nav-li-19"><a href="http://">Apple Books</a></li>
+                                <li id="entertainment-nav-li-20"><a href="http://">App Store</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6 id="entertainment-nav-h6-2">Support</h6>
+                            <ul id="entertainment-nav-ul">
+                                <li id="entertainment-nav-li-21"><a href="http://">Apple TV+ Support</a></li>
+                                <li id="entertainment-nav-li-22"><a href="http://">Apple Music Support</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!------------------------------------------------------------------------>
+                </li>
+                <li>
+                    <a onmouseover="accessories_over(this)" href="http://">Accessories</a>
+                    <!------------------------------------------------------------------------>
+                    <!-- -------------------------  Accessories ------------------------------>
+                    <nav id="accessories-nav" class="accessories-nav">
+                        <div>
+                            <h6 id="accessories-nav-h6-1">Shop Accessories</h6>
+                            <ul id="accessories-nav-ul">
+                                <li id="accessories-nav-li-11"><a href="http://">Shop All Accessories</a></li>
+                                <li id="accessories-nav-li-12"><a href="http://">Mac</a></li>
+                                <li id="accessories-nav-li-13"><a href="http://">iPad</a></li>
+                                <li id="accessories-nav-li-14"><a href="http://">iPhone</a></li>
+                                <li id="accessories-nav-li-15"><a href="http://">Apple Watch</a></li>
+                                <li id="accessories-nav-li-16"><a href="http://">AirPods</a></li>
+                                <li id="accessories-nav-li-17"><a href="http://">TV & Home</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6 id="accessories-nav-h6-2">Explore Accessories</h6>
+                            <ul id="accessories-nav-ul">
+                                <li id="accessories-nav-li-21"><a href="http://">Made by Apple</a></li>
+                                <li id="accessories-nav-li-22"><a href="http://">Beats by Dr. Farzin</a></li>
+                                <li id="accessories-nav-li-23"><a href="http://">AirTag</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!------------------------------------------------------------------------>
+                </li>
+                <li>
+                    <a onmouseover="support_over(this)" href="http://">Support</a>
+                    <!------------------------------------------------------------------------>
+                    <!-- ----------------------------  Support ------------------------------->
+                    <nav id="support-nav" class="support-nav">
+                        <div>
+                            <h6 id="support-nav-h6-1">Explore Support</h6>
+                            <ul id="support-nav-ul">
+                                <li id="support-nav-li-11"><a href="http://">iPhone</a></li>
+                                <li id="support-nav-li-12"><a href="http://">Mac</a></li>
+                                <li id="support-nav-li-13"><a href="http://">iPad</a></li>
+                                <li id="support-nav-li-14"><a href="http://">Watch</a></li>
+                                <li id="support-nav-li-15"><a href="http://">AirPods</a></li>
+                                <li id="support-nav-li-16"><a href="http://">Music</a></li>
+                                <li id="support-nav-li-17"><a href="http://">TV</a></li>
+                            </ul>
+                            <h6 id="support-nav-h6-2">Explore Support</h6>
+                        </div>
+                        <div>
+                            <h6 id="support-nav-h6-3">Get Help</h6>
+                            <ul id="support-nav-ul">
+                                <li id="support-nav-li-21"><a href="http://">Community</a></li>
+                                <li id="support-nav-li-22"><a href="http://">Check Coverage</a></li>
+                                <li id="support-nav-li-23"><a href="http://">Repair</a></li>
+                                <li id="support-nav-li-24"><a href="http://">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6 id="support-nav-h6-4">Helpful Topics</h6>
+                            <ul id="support-nav-ul">
+                                <li id="support-nav-li-31"><a href="http://">Get ApplesCore+</a></li>
+                                <li id="support-nav-li-32"><a href="http://">Apple ID & Password</a></li>
+                                <li id="support-nav-li-33"><a href="http://">Billing & Subscription</a></li>
+                                <li id="support-nav-li-34"><a href="http://">Find My</a></li>
+                                <li id="support-nav-li-35"><a href="http://">Accessibility</a></li>
+                            </ul>
+                        </div>                   
+                    </nav>
+                    <!------------------------------------------------------------------------>
+                </li>
+                <li><a href="http://"><i class="fa fa-search"></i></a></li>
+                <li><a href="http://"><i class="fa fa-shopping-bag"></i></a></li>
+            </ul>
+        </nav>
+
+        
+        
+
+
+        
+     
+
+    </div>
+
+</body>
+    <script src="script1.js"></script>
+</html>
